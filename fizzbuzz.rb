@@ -1,9 +1,9 @@
-def fizzbuzz(number)
-  if number.to_i % 3
+def fizzbuzz(fizz)
+  if fizz.to_i % 3
     puts "Fizz"
-  elsif number.to_i % 5
+  elsif fizz.to_i % 5
     puts "Buzz"
-  elsif number.to_i % 3 && 5 
+  elsif fizz.to_i % 3 && 5
     puts "FizzBuzz"
   else
     puts "nil"
