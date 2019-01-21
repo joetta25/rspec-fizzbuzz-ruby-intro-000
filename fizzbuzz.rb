@@ -1,11 +1,9 @@
-number = gets.chomp
-
 def fizzbuzz(number)
-  if number % 3 == 0
+  if number.to_i % 3
     puts "Fizz"
-  elsif number % 5 == 0
+  elsif number.to_i % 5
     puts "Buzz"
-  elsif number % 3 && 5 == 0
+  elsif number.to_i % 3 && 5 
     puts "FizzBuzz"
   else
     puts "nil"
